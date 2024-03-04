@@ -1,0 +1,18 @@
+div{
+    width: 400px;
+    text-align: left;
+    background-color: gray;
+    padding: 5px;
+    margin: auto;
+
+}
+.element-1{
+    border-left: 5px solid purple;
+}
+.element-2{
+    border-left: 5px solid purple;
+    visibility: hidden;
+}
+.element-3{
+    border-left: 5px solid green;
+}
