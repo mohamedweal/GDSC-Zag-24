@@ -1,0 +1,36 @@
+.parent{
+    width: 800px;
+    background-color: #eeeeeee2;
+    margin: auto;
+    display: flow-root;
+    vertical-align: middle;
+    line-height: 30px
+}
+p{
+    background-color: #ddddddf4;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 0;
+    margin-left: 1%;
+}
+.third p{
+    width:calc(96%/3) ;
+    float: left;
+}
+.half p{
+    width: calc(97%/2);
+    float: left;
+}
+.quarter p{
+    width: calc(95%/4);
+    float: left;
+    margin-bottom: 2%;
+}
+.clear{
+    clear: both;
+}
+.full{
+    margin-right: 1%;
+    float: left;
+    width: 98%;
+}

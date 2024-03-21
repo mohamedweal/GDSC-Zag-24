@@ -1,0 +1,26 @@
+.parent{
+    list-style: none;
+    padding: 5px;
+    width: 70%;
+    margin:auto;
+}
+ul li{
+    margin: 15px;
+    background-color: #EEE;
+    padding: 5px;
+}
+ul ol li{
+    background-color: white;
+    
+}
+.parent ul li{
+    background-color: white;
+    list-style:circle inside ;
+    padding-left: 5px;
+}
+ul ol{
+    padding-left: 20px;
+}
+ul ul{
+    padding-left: 20px;
+}

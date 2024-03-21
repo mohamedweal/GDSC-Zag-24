@@ -1,0 +1,44 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+p{
+    display: inline-block;
+}
+table{
+    border-spacing: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+table thead{
+    background-color: rgba(0, 0, 0, 0.758);
+    color: aliceblue;
+    text-align: center;
+
+}
+table thead td{
+    padding: 10px;
+}
+table tbody{
+    background-color: #EEE;
+}
+.view,.delete{
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+.view{
+    width: 40px;
+    background-color: royalblue;
+}
+.delete{
+    background-color: red;
+    width: 55px;
+    margin: 5px;
+}
+table tbody td{
+    padding: 5px;
+}
