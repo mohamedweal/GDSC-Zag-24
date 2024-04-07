@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.parent{
+    width: 550px;
+    margin: 30px auto;
+    position: relative; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Basic{
+    background-color: #EEE;
+    width: 180px;
+    height: 230px;
+    display: inline-block;
+    margin: 50px 50px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.free{
+    background-color: #DDD;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 140px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-weight:bold;
+}
+.Basic::before{
+    content: "Basic";
+    background-color: royalblue;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    left: 15px;
+    top: 20px;
+
+}
+.Basic::after{
+    content: "";
+    width: 1px;
+    height: 230px;
+    background-color:royalblue;
+    display: inline-block;
+    position: absolute;
+    right: -50px;
+}
+
+.Pro{
+    background-color: #EEE;
+    width: 180px;
+    height: 230px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    margin: 50px 40px;
+}
+.Pro::before{
+    content: "Pro";
+    background-color: royalblue;
+    color: white;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.not{
+    background-color: #DDD;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 140px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-weight:bold;
+} 
+.Pro::after{
+    content: "Or";
+    color: white;
+    background-color: royalblue;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 24px;
+    top: 107px;
+    left: -57px;
+}

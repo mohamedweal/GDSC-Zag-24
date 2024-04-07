@@ -1,0 +1,39 @@
+div{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    outline: 1px solid black;
+    text-align: center;
+    align-content: center;
+
+    margin: 30px;
+    counter-increment: counter;
+
+    position: relative;
+    box-shadow:-5px -5px 0 #ee1f64, 6px 5px 0 #2096f5;
+}
+div::before{
+    content: counter(counter);
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+
+    position: absolute;
+    top: -7px;
+    left: 40%;
+}

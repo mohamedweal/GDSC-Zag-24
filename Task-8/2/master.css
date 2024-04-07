@@ -1,0 +1,27 @@
+p{
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 15px;
+    width: 300px;
+    position: relative;
+    font-weight: bold;
+    border-left: 3px solid brown;
+}
+p::before{
+    content: " ";
+    position: absolute;
+    border: 10px solid ;
+    border-color: transparent brown transparent transparent ;
+    left: -20px;
+}
+p::after{
+    content: attr(data-person);
+    background-color: #eee;
+    padding: 10px;
+    width: 50px;
+
+    position: absolute;
+
+    top: 5px;
+    left: -100px;
+}
