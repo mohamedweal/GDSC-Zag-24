@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 450px;
+    height: 300px;
+}
