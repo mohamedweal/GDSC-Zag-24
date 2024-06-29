@@ -19,6 +19,23 @@ ul{
 a{
     text-decoration: none;
 }
+.main-title{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-bottom: 40px;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: .18rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -126,18 +143,11 @@ nav ul li:hover a{
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
+    position: relative;
 }
-.about h3{
 
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin-bottom: 40px;
-    width: fit-content;
-    margin-left: 37%;
-    font-size: 18px;
-    font-weight: normal;
-    letter-spacing: .18rem;
+.about h3+ p{
+    padding-top: 70px;
 }
 .about p{
     padding: 10px;
@@ -174,16 +184,8 @@ nav ul li:hover a{
 .menu{
     margin-bottom: 40px;
 }
-.menu h3{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    width: fit-content;
-    text-transform: uppercase;
-    letter-spacing: .17rem;
-    font-weight: normal;
-    margin-left: 40%;
-    margin-bottom: 40px;
+.menu h3+p{
+    padding-top: 70px;
 }
 .menu .box{
     box-shadow: -1px 3px 8px 2px #00000042;
@@ -242,16 +244,8 @@ nav ul li:hover a{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.where h3{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    width: fit-content;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    font-weight: normal;
-    margin-left: 37%;
-    margin-bottom: 40px;
+.where h3+p{
+    padding-top: 70px;
 }
 .where p{
     padding: 5px;
@@ -263,9 +257,7 @@ nav ul li:hover a{
 .where p{
     line-height: 1.6;
 }
-.where form {
 
-}
 .where form input:not(:last-child){
     width: 100%;
     padding: 13px;
